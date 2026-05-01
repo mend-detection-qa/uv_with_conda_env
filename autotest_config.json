@@ -95,7 +95,7 @@
         },
         {
           "operator": "regex",
-          "value": "Conda environment created successfully at /tmp/ws-scm/.*uv_with_conda_env/\\.venv"
+          "value": "Conda environment created successfully at .*\\.venv"
         }
       ],
       "_comment_expected_log_lines": "Optional. List of log lines to validate. Each entry should have an \u0027operator\u0027 (eq or regex) and \u0027value\u0027 (string or regex pattern). Example: [{\u0027operator\u0027: \u0027eq\u0027, \u0027value\u0027: \u0027Python version: 3.11\u0027}, {\u0027operator\u0027: \u0027regex\u0027, \u0027value\u0027: \u0027Python version: \\d+\\.\\d+\u0027}]. If not provided, only log attachment will be performed."
